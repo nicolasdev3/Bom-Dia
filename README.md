@@ -1,3 +1,3 @@
-# Bom-Dia instalável
+# Bom-Dia
 
-Este é um PWA: no Chrome Android, abra o site, toque nos três pontinhos e escolha **Instalar aplicativo** ou **Adicionar à tela inicial**.
+PWA instalável pelo Chrome Android. Abra o site, toque nos três pontinhos e escolha **Instalar aplicativo**.
