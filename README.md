@@ -1,3 +1,3 @@
-# Bom-Dia
+# Bom-Dia instalável
 
-Site do projeto Acorde publicado pelo GitHub Pages.
+Este é um PWA: no Chrome Android, abra o site, toque nos três pontinhos e escolha **Instalar aplicativo** ou **Adicionar à tela inicial**.

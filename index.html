@@ -25,7 +25,7 @@ input[type=time],input[type=text]{font:inherit;background:var(--c2);color:var(--
 .chk{display:flex;gap:10px;align-items:center;padding:8px 0;border-bottom:1px solid #fff1}.chk.d span{text-decoration:line-through;opacity:.5}.chk input{width:22px;height:22px}
 nav{position:fixed;left:0;right:0;bottom:0;display:flex;background:#0e1530;padding:8px;gap:8px}nav button{flex:1;padding:14px}nav button.on{background:var(--ac);color:#201500;font-weight:700}
 .frm{display:flex;flex-direction:column;gap:8px;margin-top:10px}
-</style></head><body>
+</style><link rel="manifest" href="./manifest.webmanifest"><meta name="theme-color" content="#0b1020"><link rel="apple-touch-icon" href="./icons/icon-192.png"></head><body>
 
 <section id="tab1">
 <h1 id="hi">Bom dia</h1><p class="sub" id="dt"></p>
@@ -131,4 +131,5 @@ function head(){const d=new Date(),h=d.getHours();$('hi').textContent=h<12?'Bom 
 function refresh(){head();weather();news('n1','https://g1.globo.com/rss/g1/');news('n2','https://g1.globo.com/rss/g1/economia/');news('n3','https://g1.globo.com/rss/g1/distrito-federal/');market()}
 window.refresh=refresh;
 drawA();drawC();sync();refresh();
-</script></body></html>
+</script><script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}))}</script>
+</body></html>
